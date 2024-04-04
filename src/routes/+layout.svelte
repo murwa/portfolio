@@ -1,7 +1,6 @@
 <script>
 	import '../app.css';
 	import { page } from '$app/stores';
-	export const prerender = true;
 </script>
 
 <nav class="border-gray-200 container mx-auto dark:border-gray-700">
