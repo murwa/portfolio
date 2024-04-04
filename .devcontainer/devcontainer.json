@@ -1,0 +1,19 @@
+{
+	"name": "Svelte VSCode Remote Container",
+	"dockerFile": "../Dockerfile",
+	"appPort": [5000, 35729],
+	"runArgs": ["-u", "node"],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/ash",
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"postCreateCommand": "npm install",
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"jamesbirtles.svelte-vscode",
+		"svelte.svelte-vscode",
+		"bradlc.vscode-tailwindcss"
+	]
+}
