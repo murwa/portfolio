@@ -48,13 +48,19 @@
 				</li>
 				<li>
 					<a
-						href="/services"
+						href="services"
 						class={$page.url.pathname === '/services' ? 'active-nav-link' : 'nav-link'}>Services</a
 					>
 				</li>
 				<li>
 					<a
-						href="/contact-me"
+						href="projects"
+						class={$page.url.pathname === '/projects' ? 'active-nav-link' : 'nav-link'}>Projects</a
+					>
+				</li>
+				<li>
+					<a
+						href="contact-me"
 						class={$page.url.pathname === '/contact-me' ? 'active-nav-link' : 'nav-link'}>Contact</a
 					>
 				</li>
